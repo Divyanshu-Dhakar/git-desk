@@ -27,7 +27,13 @@ const About = () => {
       <span>
         Passion | Brand Empowerment | Collaborative Approach | Extensive
         Experience | Comprehensive Services | Results-Driven</span>
+        <br/>
+        <br/>
     </p>
+<button><a target='_blank' href="https://www.instagram.com/jeevan_productions/">
+         <div><i className="fa-brands fa-instagram color-white" /></div> 
+        <div>Know more About Jeevan</div></a></button>
+
   </div>
 </div>
 

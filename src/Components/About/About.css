@@ -38,6 +38,24 @@
     font-weight: 500;
   
   }
+.aboutleft button{
+ 
+padding:0.5rem;
+border: none;
+border-radius: 0.3rem;
+background-color: #FF561D;
+color: #fff;
+}
+.aboutleft button a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem
+  ;
+text-decoration: none;
+color: #fff;
+
+}
   @media screen and (max-width: 900px) {
 
     .about-us{

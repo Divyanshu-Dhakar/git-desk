@@ -16,7 +16,7 @@ const Footer = () => {
     </li>
     <li>
 
-      <a href="#Contact">Contact</a>
+      <a href="#contact">Contact</a>
     </li>
     <li>
       <a href="#Testimonials">Testimonials</a>
@@ -27,18 +27,18 @@ const Footer = () => {
       {/* In order to use these icons paste   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> in html <head> tag. */}
       <li>
 
-        <a href="https://www.instagram.com/jeevan_productions/">
+        <a target='_blank' href="https://www.instagram.com/jeevan_productions/">
           <i className="fa-brands fa-instagram color-white" />
         </a>
       </li>
       <li>
     
-        <a href="https://www.facebook.com/jeevanproduction">
+        <a target='_blank' href="https://www.facebook.com/jeevanproduction">
           <i className="fa-brands fa-facebook color-white" />
         </a>
       </li>
     </ul>
-    <p>© All rights reserved to <a href='https://www.instagram.com/big.branders/'>Big Branders</a></p>
+    <p><a target='_blank' href='https://www.instagram.com/big.branders/'>© All rights reserved to Big Branders</a></p>
   </div>
 </footer>
 
