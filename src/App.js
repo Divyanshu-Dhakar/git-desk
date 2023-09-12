@@ -8,20 +8,18 @@ import Testimonial from '../src/Components/Testimonial/Testimonial.js'
 import Contact from '../src/Components/Contact/Contact.js'
 import Footer from '../src/Components/Footer/Footer.js'
 import Features from '../src/Components/Features/Features.js'
-import Fade from 'react-reveal/Fade';
 
 function App() {
   return (
 <>      
 <Navbar/>
       <Slider/>  
-     <Fade bottom><Services/>
+     <Services/>
       <Features/>
       <Portfolio/>
       <About/>
       <Testimonial/>
       <Contact/>
-      </Fade> 
       <Footer/>
       </>  );
 }
